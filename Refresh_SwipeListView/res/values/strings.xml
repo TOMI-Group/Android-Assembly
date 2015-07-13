@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">SwipeRefreshLayoutDemo</string>
+    <string name="hello_world">Hello World</string>
+    <string name="more_tip">没有更多了</string>
+    <string name="load_tip">正在加载</string>
+
+</resources>

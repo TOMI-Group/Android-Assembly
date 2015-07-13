@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
         lv_list = (ListView) findViewById(R.id.lv_list);
 
         list = new ArrayList<AppInfo>();
-        list.add(new AppInfo("下拉刷新","赵鑫", UploadActivity.class));
+        list.add(new AppInfo("下拉刷新","赵鑫", RefreshActivity.class));
         list.add(new AppInfo("日期控件","郭楷炎", UploadActivity.class));
         list.add(new AppInfo("省市区三级联动控件","郭楷炎", MyProCity.class));
         list.add(new AppInfo("城市快速选择seekbar","郭楷炎", UploadActivity.class));
@@ -42,7 +42,7 @@ public class MainActivity extends Activity {
         list.add(new AppInfo("广告轮播图","周伟男", UploadActivity.class));
         list.add(new AppInfo("多个tab点击和滑动切换","杨凯", TabViewPagerActivity.class));
         list.add(new AppInfo("少数tab点击和滑动切换","杨凯", SimpleTabActivity.class));
-        list.add(new AppInfo("listview侧滑删除","赵鑫", UploadActivity.class));
+        list.add(new AppInfo("listview侧滑删除","赵鑫", RefreshActivity.class));
         list.add(new AppInfo("第三方登陆","杨凯", UploadActivity.class));
         list.add(new AppInfo("第三方分享","杨凯", UploadActivity.class));
         list.add(new AppInfo("支付","冯文卉", UploadActivity.class));
